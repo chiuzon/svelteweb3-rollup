@@ -61,9 +61,6 @@ export default {
 			browser: true,
 			dedupe: ['svelte'],
 			preferBuiltins: false,
-			customResolveOptions: {
-				moduleDirectories: ['node_modules']
-			}
 		}),
 		commonjs(),
 		typescript({
